@@ -34,7 +34,6 @@ public class ClubMemberTests {
                     .email("user"+i+"@zerock.org")
                     .name("사용자"+i)
                     .fromSocial(false)
-                    .roleSet(new HashSet<ClubMemberRole>())
                     .password(  passwordEncoder.encode("1111") )
                     .build();
 
